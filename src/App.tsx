@@ -135,9 +135,12 @@ export default function App() {
       <header className="border-b border-white/5 py-4 px-6 glass sticky top-0 z-50">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="bg-red-600 p-1.5 rounded-lg">
-              <Zap className="w-6 h-6 text-white fill-white" />
-            </div>
+            <img 
+              src="/lightspeed_logo.png" 
+              alt="Lightspeed Studio Logo" 
+              className="w-8 h-8 object-contain"
+              referrerPolicy="no-referrer"
+            />
             <h1 className="text-xl font-display font-bold tracking-tight">
               LIGHTSPEED <span className="text-red-600">STUDIO</span>
             </h1>
@@ -407,7 +410,12 @@ export default function App() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex flex-col items-center md:items-start gap-2">
             <div className="flex items-center gap-2">
-              <Zap className="w-5 h-5 text-red-600 fill-red-600" />
+              <img 
+                src="/lightspeed_logo.png" 
+                alt="Lightspeed Studio Logo" 
+                className="w-6 h-6 object-contain"
+                referrerPolicy="no-referrer"
+              />
               <span className="font-display font-bold text-lg tracking-tight">Lightspeed Studio</span>
             </div>
             <p className="text-white/40 text-sm">Founded by Peter "Lightspeed" Eluwade</p>
